@@ -59,7 +59,7 @@ keycode 0x4F                       = KP_7
 keycode 0x50                       = KP_8
 keycode 0x51                       = KP_9
 
-keycode 0x42                       = Control_L
+keycode 0x42                       = Escape
 
 keycode 0x53                       = KP_4
 keycode 0x54                       = KP_5
@@ -73,9 +73,10 @@ keycode 0x57                       = KP_1
 keycode 0x58                       = KP_2
 keycode 0x59                       = KP_3
 ! these relate to  the mac layout.
-keycode 0x25                       = Control_L
-keycode 0x40                       = Alt_L
+keycode 64                       = Control_L
+keycode 37                       = Alt_L
 keycode 0x86                       = Multi_key
+keycode 108 = Control_R
 !keycode 0x73                      = Super_L
 keycode 0x85                       = Super_L
 !keycode 64                        = Super_L
@@ -87,6 +88,7 @@ keycode 0x81                       = Multi_key
 keycode 135                        = ISO_Level3_Shift
 keycode 0x5A                       = KP_0
 keycode 0x5B                       = KP_Decimal
+keycode 105 = Multi_key
 
 !keycode 37                        = Super_L
 
@@ -126,10 +128,10 @@ keycode 0x3F   =  KP_Multiply	U2020
 !keycode 49   = grave asciitilde U2018 U201C
 !keycode 0x31 = Escape
 keycode 0x0A  = asterisk		numbersign	U0268	U0650	U044E	U042E
-keycode 0x0B  = braceleft		9	U0259	at	U04D9	U04D8
-keycode 0x0C  = braceright	7	U025C	U025E	U044D	U042D
-keycode 0x0D  = less	5	U027E	U0630	U0493	U0492
-keycode 0x0E  = greater  	3	U026B	U062B	U0436	U0416
+keycode 0x0B  = less		9	U0259	at	U04D9	U04D8
+keycode 0x0C  = greater	7	U025C	U025E	U044D	U042D
+keycode 0x0D  = braceleft	5	U027E	U0630	U0493	U0492
+keycode 0x0E  = braceright  	3	U026B	U062B	U0436	U0416
 keycode 0xF   = dollar	1	U0250 U064E U044F U042F
 keycode 0x10  = percent	0	U0264	U06AD	U04A3	U04A2
 keycode 0x11  = asciicircum	2	U0275	U0261	U04E9	U04E8
@@ -187,7 +189,8 @@ keycode	0x3B =	w	W	U028D	U06CA	U04B1	U04B0
 keycode	0x3C =	v	V	U028C	U06A4	U0432	U0412
 
 keycode 0x09 = grave asciitilde U2018 U201C
-keycode 0x31 = Escape
+keycode 0x31 = grave asciitilde U2018 U201C
+!keycode 0x31 = Escape
 
 keycode 0x33	= backslash	bar	U0300 U0300
 keycode 0x16 = BackSpace
